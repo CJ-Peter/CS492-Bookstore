@@ -1,0 +1,27 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-actions button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.home-actions button:hover {
+  background-color: #f0f0f0;
+}
+
+.footer {
+  text-align: center; /* Center-align the footer text */
+  padding: 15px 0;
+  background-color: rgba(0, 128, 128, 0.8); /* Light blue-green background */
+  color: white;
+  font-size: 1rem;
+  position: fixed; /* Keep the footer at the bottom */
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(233, 232, 232, 0.1); /* Subtle shadow for depth */
+}

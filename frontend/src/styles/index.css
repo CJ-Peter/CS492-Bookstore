@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Global styles for consistent spacing */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 900px; /* Limit the width of the container */
+  margin: 60px auto; /* Center the container and add space from the top */
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+  border: 1px solid #ddd; /* Thin border with a light gray color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for depth */
+  text-align: center; /* Center-align the text */
+}
+
+.container h1 {
+  font-size: 2.8rem; /* Larger font size for the title */
+  color: #0b5ed7; /* Blue color for the title */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.2rem; /* Slightly larger font size for readability */
+  color: #444; /* Softer gray for the text */
+  line-height: 1.8; /* Increase line height for better readability */
+  margin-bottom: 15px;
+}
